@@ -1,3 +1,6 @@
+## 1.0.3
+* Update goto sha.
+
 ## 1.0.2
 * Update goto version.
 
