@@ -6,6 +6,7 @@ class Goto < Formula
   depends_on "bash-completion"
 
   def install
-    system "make", "install"
+    bin.install "goto"
+    (etc+'bash_completion.d').install_symlink "goto.completion" "goto"
   end
 end
