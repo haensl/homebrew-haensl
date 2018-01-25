@@ -1,4 +1,4 @@
-class goto < Formula
+class Goto < Formula
   desc "Bash completion for fast project navigation."
   homepage "https://haensl.github.io/goto"
   url "https://github.com/haensl/goto/archive/v2.0.2.tar.gz"
