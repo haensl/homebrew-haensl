@@ -13,7 +13,7 @@ class Goto < Formula
 
   def post_install
     bash_profile = "#{ENV['HOME']}/.bash_profile"
-    system "bash", "touch #{bash_profile}"
+    system "bash", "touch" "#{bash_profile}"
     system "bash", "\grep -q 'source #{prefix}/goto' #{bash_profile} || echo 'source #{prefix}/goto' >> #{bash_profile}"
   end
 end
