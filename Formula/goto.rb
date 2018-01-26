@@ -9,13 +9,13 @@ class Goto < Formula
 
   def install
     Pathname.new("#{etc}/bash_completion.d").install "goto.completion" => "goto"
-    var.install "goto"
+    lib.install "goto"
   end
 
   def caveats; <<-EOF
     Add the following to your ~/.bash_profile:
 
-      source #{var}/goto
+      source #{lib}/goto
     EOF
   end
 end
