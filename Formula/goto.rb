@@ -10,6 +10,6 @@ class Goto < Formula
   end
 
   def post_install
-    system "bash", "\grep -q 'source #{prefix}/goto ${HOME}/.bash_profile' || echo 'source #{prefix}/goto' >> ${HOME}/.bash_profile"
+    system "bash", "\grep -q 'source #{prefix}/goto' ${HOME}/.bash_profile || echo 'source #{prefix}/goto' >> ${HOME}/.bash_profile"
   end
 end
