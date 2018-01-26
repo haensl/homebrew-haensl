@@ -16,6 +16,10 @@ class Goto < Formula
     Add the following to your ~/.bash_profile:
 
       source #{lib}/goto
+
+    Set the path(s) to your projects via the environment variable GOTOPATH, i.e. add the following to your ~/.bash_profile:
+
+      export GOTOPATH=${HOME}/code
     EOF
   end
 end
