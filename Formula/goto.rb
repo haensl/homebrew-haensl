@@ -8,7 +8,7 @@ class Goto < Formula
   depends_on "bash-completion"
 
   def install
-    Pathname.new("#{etc}/bash_completion.d").install_symlink "goto.completion" "goto"
+    Pathname.new("#{etc}/bash_completion.d").install "goto.completion" "goto"
     var.install "goto"
   end
 
