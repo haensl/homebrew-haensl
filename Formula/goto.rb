@@ -8,12 +8,11 @@ class Goto < Formula
   depends_on "bash-completion"
 
   def install
-    pp bash_completion
-    bash_completion.install_symlink "goto.completion" "goto"
+    (prefix+'/etc/bash_completion.d').install_symlink "goto.completion" "goto"
   end
 
   def post_install
-    system "bash", "test -f ${HOME}/.bash_profile || touch ${HOME}/.bash_profile"
+    system "bash", "touch ${HOME}/.bash_profile"
     system "bash", "\grep -q 'source #{prefix}/goto' ${HOME}/.bash_profile || echo 'source #{prefix}/goto' >> ${HOME}/.bash_profile"
   end
 end
