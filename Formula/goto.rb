@@ -6,14 +6,17 @@ class Goto < Formula
   sha256 "8d23f9ee132d77de80f36f9260453a8e169d3c5706f0ecf3f8b3337123bccd2e"
   head "https://github.com/haensl/goto.git"
   depends_on "bash-completion"
-  bash_profile "#{ENV['HOME']}/.bash_profile"
+
+  def initialize
+    @bash_profile = "#{ENV['HOME']}/.bash_profile"
+  end
 
   def install
     Pathname.new("#{prefix}/etc/bash_completion.d").install_symlink "goto.completion" "goto"
   end
 
   def post_install
-    system "bash", "touch #{bash_profile}"
-    system "bash", "\grep -q 'source #{prefix}/goto' #{bash_profile} || echo 'source #{prefix}/goto' >> #{bash_profile}"
+    system "bash", "touch #{@bash_profile}"
+    system "bash", "\grep -q 'source #{prefix}/goto' #{@bash_profile} || echo 'source #{prefix}/goto' >> #{@bash_profile}"
   end
 end
