@@ -8,13 +8,14 @@ class Goto < Formula
   depends_on "bash-completion"
 
   def install
-    Pathname.new("#{prefix}/etc/bash_completion.d").install_symlink "goto.completion" "goto"
+    Pathname.new("#{etc}/bash_completion.d").install_symlink "goto.completion" "goto"
+    var.install "goto"
   end
 
   def caveats; <<-EOF
     Add the following to your ~/.bash_profile:
 
-      source #{prefix}/goto
+      source #{var}/goto
     EOF
   end
 end
