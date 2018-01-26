@@ -11,9 +11,10 @@ class Goto < Formula
     Pathname.new("#{prefix}/etc/bash_completion.d").install_symlink "goto.completion" "goto"
   end
 
-  def post_install
-    bash_profile = "#{ENV['HOME']}/.bash_profile"
-    system "touch", "#{bash_profile}"
-    system "bash", "\grep -q 'source #{prefix}/goto' #{bash_profile} || echo 'source #{prefix}/goto' >> #{bash_profile}"
+  def caveats; <<-EOF
+    Add the following to your ~/.bash_profile:
+
+      source #{prefix}/goto
+    EOF
   end
 end
