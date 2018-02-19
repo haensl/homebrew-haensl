@@ -19,6 +19,7 @@ MacOS formulae for the Homebrew package manager
 ## Available formulae
 
 * [goto](https://github.com/haensl/goto)
+* [mov2gif](https://github.com/haensl/mov2gif)
 
 ## [Changelog](CHANGELOG.md)
 
