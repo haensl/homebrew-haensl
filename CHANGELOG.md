@@ -1,3 +1,6 @@
+## 1.1.2
+* [#10: mov2gif formula needs to have class name Mov2gif.](https://github.com/haensl/homebrew-haensl/issues/10)
+
 ## 1.1.1
 * [#8: Update mov2gif version.](https://github.com/haensl/homebrew-haensl/issues/8)
 
