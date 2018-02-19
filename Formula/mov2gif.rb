@@ -1,5 +1,5 @@
 require 'pp'
-class Mov2Gif < Formula
+class Mov2gif < Formula
   desc "Bash script to convert .mov videos to GIF animations."
   homepage "https://github.com/haensl/mov2gif"
   url "https://github.com/haensl/mov2gif/archive/v1.0.1.tar.gz"
