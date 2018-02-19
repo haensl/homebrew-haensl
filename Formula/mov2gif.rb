@@ -11,4 +11,8 @@ class Mov2gif < Formula
   def install
     system "make", "install"
   end
+
+  test do
+    system "mov2gif -v"
+  end
 end
