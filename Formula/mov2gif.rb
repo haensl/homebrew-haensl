@@ -13,6 +13,6 @@ class Mov2gif < Formula
   end
 
   test do
-    system "mov2gif -v"
+    system "mov2gif", "-v"
   end
 end
