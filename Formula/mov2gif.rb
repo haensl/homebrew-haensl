@@ -9,8 +9,8 @@ class Mov2gif < Formula
   depends_on "imagemagick"
 
   def install
-    system "make", "install"
     bin.install "mov2gif.sh" => "mov2gif"
+    system "make", "install"
   end
 
   test do
