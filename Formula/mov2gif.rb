@@ -10,6 +10,7 @@ class Mov2gif < Formula
 
   def install
     system "make", "install"
+    bin.install "mov2gif.sh" => "mov2gif"
   end
 
   test do

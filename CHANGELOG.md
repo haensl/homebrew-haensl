@@ -1,3 +1,6 @@
+## 1.2.1
+* Add install step to mov2gif formula
+
 ## 1.2.0
 * [#13: Add test for mov2gif](https://github.com/haensl/homebrew-haensl/issues/13)
 
