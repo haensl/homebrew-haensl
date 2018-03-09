@@ -1,3 +1,6 @@
+## 1.3.0
+* [#15: Add openssl-generate-certificates.](https://github.com/haensl/homebrew-haensl/issues/15)
+
 ## 1.2.1
 * Add install step to mov2gif formula
 
