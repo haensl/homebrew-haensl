@@ -20,6 +20,7 @@ MacOS formulae for the Homebrew package manager
 
 * [goto](https://github.com/haensl/goto)
 * [mov2gif](https://github.com/haensl/mov2gif)
+* [openssl-generate-certificates](https://github.com/haensl/openssl-certgen)
 
 ## [Changelog](CHANGELOG.md)
 
