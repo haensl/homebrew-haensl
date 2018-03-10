@@ -1,3 +1,6 @@
+## 1.3.2
+* [#19: Update openssl-gererate-certificates version.](https://github.com/haensl/homebrew-haensl/issues/19)
+
 ## 1.3.1
 * [#17: Update openssl-gererate-certificates version.](https://github.com/haensl/homebrew-haensl/issues/17)
 
