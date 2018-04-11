@@ -1,5 +1,5 @@
 require 'pp'
-class OpenSSLGenerateCertificates < Formula
+class OpensslGenerateCertificates < Formula
   desc "Generate self-signed certificates for client/server applications."
   homepage "https://github.com/haensl/openssl-certgen"
   url "https://github.com/haensl/openssl-certgen/archive/v1.2.0.tar.gz"
