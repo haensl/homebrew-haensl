@@ -1,11 +1,14 @@
+## 1.3.4
+* [#23: Fix openssl-generate-certificates formula.](https://github.com/haensl/homebrew-haensl/issues/23)
+
 ## 1.3.3
-* [#21: Update openssl-gererate-certificates version.](https://github.com/haensl/homebrew-haensl/issues/21)
+* [#21: Update openssl-generate-certificates version.](https://github.com/haensl/homebrew-haensl/issues/21)
 
 ## 1.3.2
-* [#19: Update openssl-gererate-certificates version.](https://github.com/haensl/homebrew-haensl/issues/19)
+* [#19: Update openssl-generate-certificates version.](https://github.com/haensl/homebrew-haensl/issues/19)
 
 ## 1.3.1
-* [#17: Update openssl-gererate-certificates version.](https://github.com/haensl/homebrew-haensl/issues/17)
+* [#17: Update openssl-generate-certificates version.](https://github.com/haensl/homebrew-haensl/issues/17)
 
 ## 1.3.0
 * [#15: Add openssl-generate-certificates.](https://github.com/haensl/homebrew-haensl/issues/15)
