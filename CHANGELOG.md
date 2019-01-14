@@ -1,3 +1,6 @@
+## 1.3.5
+* [#26: Update openssl-generate-certificates version.](https://github.com/haensl/homebrew-haensl/issues/26)
+
 ## 1.3.4
 * [#23: Fix openssl-generate-certificates formula.](https://github.com/haensl/homebrew-haensl/issues/23)
 
