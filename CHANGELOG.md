@@ -1,3 +1,6 @@
+## 1.4.0
+* [#29: Add m4a2mp3.](https://github.com/haensl/homebrew-haensl/issues/29)
+
 ## 1.3.5
 * [#26: Update openssl-generate-certificates version.](https://github.com/haensl/homebrew-haensl/issues/26)
 
