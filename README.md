@@ -19,6 +19,7 @@ MacOS formulae for the Homebrew package manager
 ## Available formulae
 
 * [goto](https://github.com/haensl/goto)
+* [m4a2mp3](https://github.com/haensl/m4a2mp3)
 * [mov2gif](https://github.com/haensl/mov2gif)
 * [openssl-generate-certificates](https://github.com/haensl/openssl-certgen)
 
