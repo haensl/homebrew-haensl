@@ -9,6 +9,7 @@ class M4a2mp3 < Formula
 
   def install
     bin.install "m4a2mp3.sh" => "m4a2mp3"
+    man1.install "man/m4a2mp3.1.gz"
   end
 
   test do
