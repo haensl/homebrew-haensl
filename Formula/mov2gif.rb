@@ -10,6 +10,7 @@ class Mov2gif < Formula
 
   def install
     bin.install "mov2gif.sh" => "mov2gif"
+    man1.install "man/mov2gif.1.gz"
   end
 
   test do
