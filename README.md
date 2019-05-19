@@ -1,6 +1,6 @@
 # homebrew-haensl
 
-MacOS formulae for the Homebrew package manager
+MacOS formulae for the Homebrew package manager.
 
 ## Quick start
 
