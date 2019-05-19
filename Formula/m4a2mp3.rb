@@ -9,7 +9,6 @@ class M4a2mp3 < Formula
 
   def install
     bin.install "m4a2mp3.sh" => "m4a2mp3"
-    system "make", "install"
   end
 
   test do
