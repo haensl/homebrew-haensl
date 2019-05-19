@@ -1,3 +1,8 @@
+## 1.5.0
+* [#12: Add bytes.](https://github.com/haensl/homebrew-haensl/issues/12)
+* Install manpage with mov2gif.
+* Install manpage with m4a2mp3.
+
 ## 1.4.0
 * [#29: Add m4a2mp3.](https://github.com/haensl/homebrew-haensl/issues/29)
 
