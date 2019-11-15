@@ -1,3 +1,6 @@
+## 1.5.1
+* [#34: Update `goto` to v2.2.1](https://github.com/haensl/homebrew-haensl/issues/34)
+
 ## 1.5.0
 * [#12: Add bytes.](https://github.com/haensl/homebrew-haensl/issues/12)
 * Install manpage with mov2gif.
